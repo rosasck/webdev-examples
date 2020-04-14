@@ -13,4 +13,10 @@
 .grid-container {
   display: grid;
   gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 300px;
+}
+.item2, .item4, .item6{
+ grid-column: 2 /6 ;
+  
 }
