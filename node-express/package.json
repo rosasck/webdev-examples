@@ -1,19 +1,15 @@
 {
-  "name": "node-express-examples",
+  "name": "expresstest",
   "version": "1.0.0",
-  "description": "Project folder with Node.js and Express examples",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Caterina Paun",
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-session": "^1.17.0"
+    "nodemon": "^2.0.3"
   }
 }
